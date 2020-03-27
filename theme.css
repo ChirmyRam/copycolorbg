@@ -11,7 +11,7 @@
     max-width: 100%;
     display: block;
     margin: 1.25rem auto;
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
     box-shadow: 1px 1px 8px 2px #888888;
     transition:all 0.5s;
 	-webkit-transition:all 0.5s;
@@ -115,7 +115,7 @@ img.biaoqing {
     box-shadow: 0px 0px 0px 0px #888888 !important;
 }
 #comment-form textarea {
-    border-radius: 0.5rem !important;
+    border-radius: 0.3rem !important;
     background: url(https://www.qxwlmz.cn/image/theme/textarea.gif) no-repeat;
     background-position: right;
     background-size: contain;
@@ -130,7 +130,7 @@ blockquote:hover {
     transition: all 0.8s;
 }
 .comment-content pre {
-    border-radius: 0.5rem !important;
+    border-radius: 0.3rem !important;
 }
 .post-content hr:hover {
     background: #66ccff repeating-linear-gradient(45deg, #fff, #fff 4px, transparent 4px, transparent 8px);
@@ -147,7 +147,7 @@ blockquote:hover {
     font-weight: 900 !important;
 }
 body.card #index article .post-card, body.card #archive article .post-card {
-    border-radius: 0.5rem !important;
+    border-radius: 0.3rem !important;
 }
 Top
 Bottom
