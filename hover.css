@@ -1,0 +1,48 @@
+@-webkit-keyframes hue {
+    from {
+        -webkit-filter: hue-rotate(0deg);
+    }
+    to {
+        -webkit-filter: hue-rotate(-360deg);
+    }
+}
+.post-content img:hover {
+    transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+	-ms-transition:all 0.5s;
+    transform: scale(1.05);
+span.post-near-span {
+    transition: 0.3s;
+}
+body, button, input, optgroup, select, textarea {
+    font-family: 'Mirages Custom', 'Merriweather', 'Open Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'Segoe UI Emoji', 'Segoe UI Symbol', Helvetica, Arial, sans-serif !important;
+}
+img.biaoqing {
+    box-shadow: 0px 0px 0px 0px #888888 !important;
+}
+#comment-form textarea {
+    border-radius: 0.5rem !important;
+    background: url(https://www.qxwlmz.cn/image/theme/textarea.gif) no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+.comment-content pre {
+    border-radius: 0.5rem !important;
+}
+#footer .container{
+    font-size:15px;
+    font-family: 'Mirages Custom', 'Merriweather', 'Open Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'Segoe UI Emoji', 'Segoe UI Symbol', Helvetica, Arial, sans-serif !important;
+}
+.sidemenushuo {
+    position: relative;
+    margin: 2rem 2rem -1rem 2rem;
+    font-weight: 900 !important;
+}
+.link-box img{
+	border-radius: 0rem !important;
+}
+body.card #index article .post-card, body.card #archive article .post-card {
+    border-radius: 0.5rem !important;
+}
+Top
+Bottom
