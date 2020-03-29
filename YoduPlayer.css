@@ -1,0 +1,36 @@
+/* 高度 */
+#bgmpanel, span.bgmbuttom {
+    height: 60px;
+}
+
+/* 进度条颜色 */
+#jindu {
+    background-color: red;
+}
+
+/* 歌名与作者间距 */
+.artist {
+    float: initial !important;
+    margin-left: 5px;
+}
+
+/* Chrome 隐藏滚动条 */
+.yd-lib::-webkit-scrollbar {
+    display: none !important;
+}
+
+.yd-lib {
+    /* 歌曲上下间距 */
+    margin: 5px 0;
+
+    /* 歌曲信息超出不换行 */
+    white-space: nowrap;
+    overflow-x: scroll;
+
+    /* 火狐隐藏滚动条 */
+    overflow: -moz-hidden-unscrollable;
+    scrollbar-width: none;
+    
+    /* IE、EDGE 隐藏滚动条 */
+    -ms-overflow-style: none !important;
+}
